@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { animated } from 'react-spring';
 
 import { H1, Tagline } from './typography';
-import { Hero, HeroInfo, Social, SocialIcon } from './landing';
+import { Hero, HeroInfo, Social, SocialIcon, NavContainer, Nav } from './landing';
 
 /* structural components */
 export const Container = styled(animated.div)`
@@ -18,4 +18,4 @@ export const InnerContainer = styled.div`
 `;
 
 /* typography */
-export { H1, Hero, HeroInfo, Tagline, Social, SocialIcon };
+export { H1, Hero, HeroInfo, Tagline, Social, SocialIcon, NavContainer, Nav };

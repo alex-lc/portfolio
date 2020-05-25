@@ -8,6 +8,7 @@ export const H1 = styled.h1`
 `;
 
 export const Tagline = styled.p`
+    margin-top: 1rem;
     font-size: 3rem;
     font-weight: 300;
     line-height: 4rem;

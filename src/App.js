@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <Landing />
-      <Skills />
+      <Skills id="skills" />
     </>
   );
 }
