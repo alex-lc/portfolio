@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import { useSpring } from 'react-spring';
 
 /* styles */
 import { Container, InnerContainer, H2, LargeP, BackgroundSplash, SkillContainer, Skill } from '../styles';
@@ -19,10 +20,13 @@ import Github from '../assets/Github.svg';
 
 export default function Skills() {
 
+    /* react-spring */
+    const props = useSpring({ opacity: 1, from: { opacity: 0 } });
+
     const [currentSkill, setCurrentSkill] = useState('Skills');
 
     return (
-        <Container>
+        <Container style={props}>
             <InnerContainer>
                 <BackgroundSplash>{currentSkill}</BackgroundSplash>
                 <Header />
