@@ -21,49 +21,52 @@ import Github from '../assets/Github.svg';
 export default function Skills() {
 
     /* react-spring */
-    const props = useSpring({ opacity: 1, from: { opacity: 0 } });
+    const props = useSpring({ 
+        opacity: 1, from: { opacity: 0 },
+        marginLeft: 0, from: { marginLeft: 500 }
+    });
 
     const [currentSkill, setCurrentSkill] = useState('Skills');
 
     return (
         <Container style={props}>
             <InnerContainer>
-                <BackgroundSplash>{currentSkill}</BackgroundSplash>
                 <Header />
 
-                <H2>Skills</H2>
+                <BackgroundSplash>{currentSkill}</BackgroundSplash>
+                <H2 onMouseEnter={() => setCurrentSkill('Skills')}>Skills</H2>
                 <LargeP>Continuous learning and adapting to new technologies in an everchanging tech landscape is essential.</LargeP>
 
                 <SkillContainer>
-                    <Skill>
+                    <Skill onMouseEnter={() => setCurrentSkill('React')}>
                         <img src={ReactJS} alt="React.js" />
                         <p>React.js</p>
                     </Skill>
-                    <Skill>
+                    <Skill onMouseEnter={() => setCurrentSkill('Redux')}>
                         <img src={Redux} alt="Redux" />
                         <p>Redux</p>
                     </Skill>
-                    <Skill>
+                    <Skill onMouseEnter={() => setCurrentSkill('Postgres')}>
                         <img src={Postgres} alt="PostgreSQL" />
                         <p>PostgreSQL</p>
                     </Skill>
-                    <Skill>
+                    <Skill onMouseEnter={() => setCurrentSkill('Mongo')}>
                         <img src={Mongodb} alt="MongoDB" />
                         <p>MongoDB</p>
                     </Skill>
-                    <Skill>
+                    <Skill onMouseEnter={() => setCurrentSkill('JavaScript')}>
                         <img src={Javascript} alt="JavaScript" />
                         <p>JavaScript</p>
                     </Skill>
-                    <Skill>
+                    <Skill onMouseEnter={() => setCurrentSkill('Styled')}>
                         <img src={Styledcomponents} alt="Styled-Components" />
-                        <p>Styled-Components</p>
+                        <p>Styled</p>
                     </Skill>
-                    <Skill>
+                    <Skill onMouseEnter={() => setCurrentSkill('SCSS')}>
                         <img src={Scss} alt="SCSS" />
                         <p>SCSS</p>
                     </Skill>
-                    <Skill>
+                    <Skill onMouseEnter={() => setCurrentSkill('GitHub')}>
                         <img src={Github} alt="GitHub" />
                         <p>Git and GitHub</p>
                     </Skill>

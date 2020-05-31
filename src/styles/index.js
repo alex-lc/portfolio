@@ -7,7 +7,7 @@ import { BackgroundSplash, SkillContainer, Skill } from './skills';
 
 /* structural components */
 export const Container = styled(animated.div)`
-    background: ${props => props.bg ? props.bg : `#fafafa`};
+    background: ${props => props.bg ? props.bg : `none`};
     width: 100%;
     height: 100vh;
 `;
