@@ -3,7 +3,7 @@ import { useSpring } from 'react-spring';
 import { Link } from 'react-router-dom';
 
 /* styles */
-import { Container, InnerContainer, NavContainer, Nav, H1, Hero, HeroInfo, Tagline, Social, SocialIcon } from '../styles';
+import { Container, InnerContainer, H1, Hero, HeroInfo, Tagline, Social, SocialIcon } from '../styles';
 
 /* assets */
 import Computer from '../assets/Computer.svg';
@@ -18,9 +18,9 @@ export default function Landing() {
 
     /* react-spring */
     const props = useSpring({ opacity: 1, from: { opacity: 0 } });
-    
+
     return (
-        <Container style={props} bg="#91c5ff">
+        <Container style={props} bg="#91c5ff" height="100vh">
             <InnerContainer>
                 <Header />
 
@@ -34,7 +34,7 @@ export default function Landing() {
                             <SocialIcon><a target="_blank" rel="noopener noreferrer" href="https://twitter.com/alexlcooter"><img src={Twitter} alt="Twitter" /></a></SocialIcon>
                         </Social>
                     </HeroInfo>
-                    
+
                     <div className="hero-svg">
                         <img src={Computer} alt="Computer" />
                     </div>

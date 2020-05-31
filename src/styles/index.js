@@ -4,12 +4,13 @@ import { animated } from 'react-spring';
 import { H1, H2, Tagline, LargeP } from './typography';
 import { Hero, HeroInfo, Social, SocialIcon, NavContainer, Nav } from './landing';
 import { BackgroundSplash, SkillContainer, Skill } from './skills';
+import { ProjectContainer, ProjectTitle, ProjectDescription, ProjectHeading, TechStack } from './projects';
 
 /* structural components */
 export const Container = styled(animated.div)`
     background: ${props => props.bg ? props.bg : `none`};
     width: 100%;
-    height: 100vh;
+    height: ${props => props.height ? props.height : `auto`};
 `;
 
 export const InnerContainer = styled.div`
@@ -19,4 +20,7 @@ export const InnerContainer = styled.div`
 `;
 
 /* export all styles */
-export { H1, H2, LargeP, Hero, HeroInfo, Tagline, Social, SocialIcon, NavContainer, Nav, BackgroundSplash, SkillContainer, Skill };
+export {
+    H1, H2, LargeP, Hero, HeroInfo, Tagline, Social, SocialIcon, NavContainer, Nav, BackgroundSplash, SkillContainer, Skill,
+    ProjectContainer, ProjectTitle, ProjectDescription, ProjectHeading, TechStack
+};

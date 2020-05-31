@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const BackgroundSplash = styled.p`
     position: absolute;
-    left: 5%;
+    top: -100px;
     font-weight: 900;
     font-size: 38rem;
     margin-top: 15rem;
@@ -11,6 +11,8 @@ export const BackgroundSplash = styled.p`
 `;
 
 export const SkillContainer = styled.div`
+    position: relative;
+    overflow: hidden;
     margin: 5rem 0;
     width: 100%;
     display: flex;

@@ -21,23 +21,22 @@ import Github from '../assets/Github.svg';
 export default function Skills() {
 
     /* react-spring */
-    const props = useSpring({ 
-        opacity: 1, from: { opacity: 0 },
-        marginLeft: 0, from: { marginLeft: 500 }
+    const props = useSpring({
+        opacity: 1, marginTop: 0, from: { opacity: 0, marginTop: -500 }
     });
 
     const [currentSkill, setCurrentSkill] = useState('Skills');
 
     return (
-        <Container style={props}>
+        <Container style={props} height="100vh">
             <InnerContainer>
                 <Header />
 
-                <BackgroundSplash>{currentSkill}</BackgroundSplash>
                 <H2 onMouseEnter={() => setCurrentSkill('Skills')}>Skills</H2>
                 <LargeP>Continuous learning and adapting to new technologies in an everchanging tech landscape is essential.</LargeP>
 
                 <SkillContainer>
+                    <BackgroundSplash>{currentSkill}</BackgroundSplash>
                     <Skill onMouseEnter={() => setCurrentSkill('React')}>
                         <img src={ReactJS} alt="React.js" />
                         <p>React.js</p>

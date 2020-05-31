@@ -56,6 +56,9 @@ table {
 /* import primary font */
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;300;400;500;700;900&display=swap');
 
+/* project fonts */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@900&display=swap');
+
 html {
   font-size: 62.5%;
   font-family: 'Heebo', sans-serif;
