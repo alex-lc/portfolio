@@ -10,6 +10,9 @@ export const ProjectContainer = styled.div`
     .project-preview {
         width: 50%;
         padding-right: 5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
 
         img {
             width: 100%;
@@ -59,5 +62,33 @@ export const TechStack = styled.div`
         font-size: 1.6rem;
         line-height: 2.6rem;
         font-weight: 300;
+    }
+`;
+
+export const ProjectControls = styled.div`
+    width: 100%;
+    display: flex;
+    margin-top: 3rem;
+`;
+
+export const ProjectButton = styled.button`
+    width: auto;
+    background: #3F3D56;
+    color: #fafafa;
+    padding: 1rem;
+    margin: 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1.4rem;
+    font-weight: 300;
+    line-height: 2.4rem;
+
+    &:hover {
+        cursor: pointer;
+    }
+
+    a {
+        color: #fafafa;
+        text-decoration: none;
     }
 `;

@@ -4,7 +4,7 @@ import React from 'react';
 import SFDPreview from '../../assets/PreviewSFD.PNG';
 
 /* styles */
-import { Container, InnerContainer, ProjectContainer, ProjectTitle, ProjectDescription, ProjectHeading, TechStack } from '../../styles';
+import { Container, InnerContainer, ProjectContainer, ProjectTitle, ProjectDescription, ProjectHeading, TechStack, ProjectControls, ProjectButton } from '../../styles';
 
 export default function SafeFurDogs() {
     return (
@@ -34,6 +34,12 @@ export default function SafeFurDogs() {
                             <p>react-router-dom</p>
                             <p>react-hook-form</p>
                         </TechStack>
+
+                        <ProjectControls>
+                            <ProjectButton><a target="_blank" rel="noopener noreferrer" href="https://github.com/sq-int/safe-fur-dogs">Frontend GitHub</a></ProjectButton>
+                            <ProjectButton><a target="_blank" rel="noopener noreferrer" href="https://github.com/sq-int/safe-fur-dogs-be">Backend GitHub</a></ProjectButton>
+                            <ProjectButton><a target="_blank" rel="noopener noreferrer" href="https://safefurdogs.com">Visit Site</a></ProjectButton>
+                        </ProjectControls>
                     </div>
                 </ProjectContainer>
             </InnerContainer>
