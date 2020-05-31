@@ -11,6 +11,9 @@ import Github from '../assets/Github.svg';
 import Linkedin from '../assets/Linkedin.svg';
 import Twitter from '../assets/Twitter.svg';
 
+/* components */
+import Header from './Header';
+
 export default function Landing() {
 
     /* react-spring */
@@ -19,14 +22,7 @@ export default function Landing() {
     return (
         <Container style={props} bg="#91c5ff">
             <InnerContainer>
-                <NavContainer>
-                    <Nav>
-                        <Link to="/skills">Skills</Link>
-                        <Link to="/projects">Projects</Link>
-                        <Link to="/resume">Resume</Link>
-                        <Link to="/about">About</Link>
-                    </Nav>
-                </NavContainer>
+                <Header />
 
                 <Hero>
                     <HeroInfo>

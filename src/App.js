@@ -1,4 +1,5 @@
 import React from 'react';
+import { Route } from 'react-router-dom';
 
 /* components */
 import Landing from './components/Landing';
@@ -8,8 +9,8 @@ function App() {
   
   return (
     <>
-      <Landing />
-      <Skills id="skills" />
+      <Route exact path="/" component={Landing} />
+      <Route path="/skills" component={Skills} />
     </>
   );
 }

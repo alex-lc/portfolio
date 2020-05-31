@@ -1,8 +1,9 @@
 import styled from 'styled-components';
 import { animated } from 'react-spring';
 
-import { H1, Tagline } from './typography';
+import { H1, H2, Tagline, LargeP } from './typography';
 import { Hero, HeroInfo, Social, SocialIcon, NavContainer, Nav } from './landing';
+import { BackgroundSplash, SkillContainer, Skill } from './skills';
 
 /* structural components */
 export const Container = styled(animated.div)`
@@ -17,5 +18,5 @@ export const InnerContainer = styled.div`
     margin: 0 auto;
 `;
 
-/* typography */
-export { H1, Hero, HeroInfo, Tagline, Social, SocialIcon, NavContainer, Nav };
+/* export all styles */
+export { H1, H2, LargeP, Hero, HeroInfo, Tagline, Social, SocialIcon, NavContainer, Nav, BackgroundSplash, SkillContainer, Skill };
