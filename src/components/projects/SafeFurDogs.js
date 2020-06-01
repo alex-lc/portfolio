@@ -8,7 +8,7 @@ import { Container, InnerContainer, ProjectContainer, ProjectTitle, ProjectDescr
 
 export default function SafeFurDogs() {
     return (
-        <Container bg="#bfffe9">
+        <Container bg="#bfffe9" topMargin="5rem">
             <InnerContainer>
                 <ProjectContainer>
                     <div className="project-preview">

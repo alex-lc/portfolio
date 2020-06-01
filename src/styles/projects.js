@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const ProjectContainer = styled.div`
-    margin: 5rem 0 0;
+    margin-top: ${props => props.topMargin ? props.topMargin : `5rem`};
     padding: 5rem 0;
     width: 100%;
     display: flex;
@@ -39,14 +39,14 @@ export const ProjectTitle = styled.h2`
 
 export const ProjectDescription = styled.p`
     font-size: 2rem;
-    font-weight: 500;
+    font-weight: 300;
     line-height: 3.4rem;
     margin: 1rem 0;
 `;
 
 export const ProjectHeading = styled.h4`
     font-size: 2.4rem;
-    font-weight: 300;
+    font-weight: 700;
     line-height: 3.4rem;
     margin: 1rem 0;
 `;

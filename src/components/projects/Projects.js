@@ -7,6 +7,8 @@ import { Container, InnerContainer, H2, LargeP } from '../../styles';
 /* components */
 import Header from '../Header';
 import SafeFurDogs from './SafeFurDogs';
+import Raheem from './Raheem';
+import WaterMyPlants from './WaterMyPlants';
 
 export default function Projects() {
 
@@ -28,6 +30,8 @@ export default function Projects() {
             </Container>
 
             <SafeFurDogs />
+            <Raheem />
+            <WaterMyPlants />
         </>
     )
 }
