@@ -19,12 +19,16 @@ export const Nav = styled.nav`
     a { 
         color: #000000;
         text-decoration: none;
-        transition: all 300ms;
+        padding-bottom: 0.5rem;
 
         &:hover {
-            transition: color 300ms;
-            color: #3F3D56;
+            transition: border 300ms;
+            border-bottom: 3px solid #3F3D56;
         }
+    }
+
+    .active {
+        border-bottom: 3px solid #3F3D56;
     }
 `;
 
