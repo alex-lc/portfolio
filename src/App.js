@@ -5,6 +5,7 @@ import { Route } from 'react-router-dom';
 import Landing from './components/Landing';
 import Skills from './components/Skills';
 import Projects from './components/projects/Projects';
+import Resume from './components/Resume';
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
       <Route exact path="/" component={Landing} />
       <Route path="/skills" component={Skills} />
       <Route path="/projects" component={Projects} />
+      <Route path="/resume" component={Resume} />
     </>
   );
 }
