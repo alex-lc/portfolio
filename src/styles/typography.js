@@ -20,6 +20,14 @@ export const Tagline = styled.p`
     font-weight: 300;
     line-height: 4rem;
     color: #3F3D56;
+
+    @media (max-width: 415px) {
+        font-size: 2.8rem;
+    }
+
+    @media (max-width: 388px) {
+        font-size: 2.6rem;
+    }
 `;
 
 export const LargeP = styled.p`

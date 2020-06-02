@@ -23,6 +23,7 @@ export const SkillContainer = styled.div`
 
 export const Skill = styled.div`
     width: 20%;
+    min-width: 20rem;
     margin: 2rem;
     padding: 3rem 1rem;
     border: 1px solid #e6e6e6;
@@ -30,6 +31,14 @@ export const Skill = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    @media (width: 900px) {
+        width: 40%;
+    }
+
+    @media (max-width: 600px) {
+        width: 100%;
+    }
 
     img {
         width: 80%;
