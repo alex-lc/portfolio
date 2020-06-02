@@ -11,7 +11,6 @@ export default function Header() {
                 <NavLink activeClassName="active" to="/skills">Skills</NavLink>
                 <NavLink activeClassName="active" to="/projects">Projects</NavLink>
                 <NavLink activeClassName="active" to="/resume">Resume</NavLink>
-                <NavLink activeClassName="active" to="/about">About</NavLink>
             </Nav>
         </NavContainer>
     )

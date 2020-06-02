@@ -14,7 +14,8 @@ export const ResumeHeading = styled.h3`
 `;
 
 export const ResumeItem = styled.div`
-    width: 80%;
+    width: 100%;
+    margin: 3rem 0 0;
     padding: 2rem;
     border: 1px solid #e6e6e6;
     border-radius: 1rem;
@@ -22,21 +23,21 @@ export const ResumeItem = styled.div`
     justify-content: space-between;
 
     .job {
-        width: 25%;
+        width: 30%;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
     }
 
     .date {
-        width: 15%;
+        width: 20%;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
     }
 
     .description {
-        width: 50%;
+        width: 40%;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
@@ -53,5 +54,19 @@ export const JobTitle = styled.h3`
     font-size: 1.8rem;
     font-weight: 700;
     line-height: 2.8rem;
+    color: #111111;
+`;
+
+export const ResumeDate = styled.p`
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 2.4rem;
+    color: #111111;
+`;
+
+export const JobDescription = styled.p`
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 2.4rem;
     color: #111111;
 `;

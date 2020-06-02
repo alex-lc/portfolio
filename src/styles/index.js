@@ -5,7 +5,7 @@ import { H1, H2, Tagline, LargeP } from './typography';
 import { Hero, HeroInfo, Social, SocialIcon, NavContainer, Nav } from './landing';
 import { BackgroundSplash, SkillContainer, Skill } from './skills';
 import { ProjectContainer, ProjectTitle, ProjectDescription, ProjectHeading, TechStack, ProjectControls, ProjectButton } from './projects';
-import { ResumeContainer, ResumeItem, ResumeHeading, ResumeItemLabel, JobTitle } from './resume';
+import { ResumeContainer, ResumeItem, ResumeHeading, ResumeItemLabel, JobTitle, ResumeDate, JobDescription } from './resume';
 
 /* structural components */
 export const Container = styled(animated.div)`
@@ -24,5 +24,5 @@ export const InnerContainer = styled.div`
 export {
     H1, H2, LargeP, Hero, HeroInfo, Tagline, Social, SocialIcon, NavContainer, Nav, BackgroundSplash, SkillContainer, Skill,
     ProjectContainer, ProjectTitle, ProjectDescription, ProjectHeading, TechStack, ProjectButton, ProjectControls,
-    ResumeContainer, ResumeItem, ResumeHeading, ResumeItemLabel, JobTitle
+    ResumeContainer, ResumeItem, ResumeHeading, ResumeItemLabel, JobTitle, ResumeDate, JobDescription
 };
