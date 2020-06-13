@@ -23,6 +23,10 @@ export const ResumeItem = styled.div`
     justify-content: space-between;
     flex-wrap: wrap;
 
+    &:last-child {
+        margin-bottom: 5rem;
+    }
+
     .job {
         width: 30%;
         display: flex;
