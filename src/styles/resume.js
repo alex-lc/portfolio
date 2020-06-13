@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const ResumeContainer = styled.div`
     width: 100%;
-    height: 50rem;
+    margin-bottom: 5rem;
 `;
 
 export const ResumeHeading = styled.h3`
@@ -24,7 +24,7 @@ export const ResumeItem = styled.div`
     flex-wrap: wrap;
 
     &:last-child {
-        margin-bottom: 10rem;
+        margin-bottom: 3rem;
     }
 
     .job {
