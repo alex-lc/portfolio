@@ -24,7 +24,7 @@ export const ResumeItem = styled.div`
     flex-wrap: wrap;
 
     &:last-child {
-        margin-bottom: 5rem;
+        margin-bottom: 10rem;
     }
 
     .job {
