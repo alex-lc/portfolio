@@ -21,15 +21,7 @@ export const Nav = styled.nav`
     }
 
     @media (max-width: 600px) {
-        width: 70%;
-    }
-
-    @media (max-width: 530px) {
-        width: 80%;
-    }
-
-    @media (max-width: 460px) {
-        width: 90%;
+        width: 100%;
     }
 
     a { 

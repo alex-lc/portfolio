@@ -21,12 +21,17 @@ export const ResumeItem = styled.div`
     border-radius: 1rem;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 
     .job {
         width: 30%;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
+
+        @media (max-width: 800px) {
+            width: 100%;
+        }
     }
 
     .date {
@@ -34,6 +39,10 @@ export const ResumeItem = styled.div`
         display: flex;
         flex-direction: column;
         align-items: flex-start;
+
+        @media (max-width: 800px) {
+            width: 100%;
+        }
     }
 
     .description {
@@ -41,6 +50,10 @@ export const ResumeItem = styled.div`
         display: flex;
         flex-direction: column;
         align-items: flex-start;
+
+        @media (max-width: 800px) {
+            width: 100%;
+        }
     }
 `;
 
@@ -48,6 +61,10 @@ export const ResumeItemLabel = styled.h4`
     font-size: 1.2rem;
     font-weight: 300;
     line-height: 2.2rem;
+
+    @media (max-width: 800px) {
+        margin-top: 2rem;
+    }
 `;
 
 export const JobTitle = styled.h3`

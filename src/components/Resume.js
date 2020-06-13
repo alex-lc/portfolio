@@ -28,17 +28,17 @@ export default function Resume() {
                             <ResumeItemLabel>Title</ResumeItemLabel>
                             <JobTitle>Lambda School Team Lead</JobTitle>
                         </div>
-                        <div className="date">
-                            <ResumeItemLabel>Date</ResumeItemLabel>
-                            <ResumeDate>Dec. 2019 - Mar. 2020</ResumeDate>
-                        </div>
-                        <div className="description">
-                            <ResumeItemLabel>Description</ResumeItemLabel>
-                            <JobDescription>
-                                Mentored and guided a team of eight students through previously completed Lambda School curriculum. Facilitated 
-                                one on one code reviews and team standups, while serving as the first point of contact related to Lambda School success.
-                            </JobDescription>
-                        </div>
+                            <div className="date">
+                                <ResumeItemLabel>Date</ResumeItemLabel>
+                                <ResumeDate>Dec. 2019 - Mar. 2020</ResumeDate>
+                            </div>
+                            <div className="description">
+                                <ResumeItemLabel>Description</ResumeItemLabel>
+                                <JobDescription>
+                                    Mentored and guided a team of eight students through previously completed Lambda School curriculum. Facilitated 
+                                    one on one code reviews and team standups, while serving as the first point of contact related to Lambda School success.
+                                </JobDescription>
+                            </div>
                     </ResumeItem>
 
                     <ResumeItem>
@@ -46,17 +46,17 @@ export default function Resume() {
                             <ResumeItemLabel>Title</ResumeItemLabel>
                             <JobTitle>Technical Support Assistant</JobTitle>
                         </div>
-                        <div className="date">
-                            <ResumeItemLabel>Date</ResumeItemLabel>
-                            <ResumeDate>Feb. 2016 - Dec. 2018</ResumeDate>
-                        </div>
-                        <div className="description">
-                            <ResumeItemLabel>Description</ResumeItemLabel>
-                            <JobDescription>
-                                Provided technical support and assistance to all faculty, staff, and classrooms in the School of Human Sciences at Stephen F. 
-                                Austin State University, covering five different program areas.
-                            </JobDescription>
-                        </div>
+                            <div className="date">
+                                <ResumeItemLabel>Date</ResumeItemLabel>
+                                <ResumeDate>Feb. 2016 - Dec. 2018</ResumeDate>
+                            </div>
+                            <div className="description">
+                                <ResumeItemLabel>Description</ResumeItemLabel>
+                                <JobDescription>
+                                    Provided technical support and assistance to all faculty, staff, and classrooms in the School of Human Sciences at Stephen F. 
+                                    Austin State University, covering five different program areas.
+                                </JobDescription>
+                            </div>
                     </ResumeItem>
                 </ResumeContainer>
             </InnerContainer>

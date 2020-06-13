@@ -7,6 +7,10 @@ export const ProjectContainer = styled.div`
     display: flex;
     color: #3F3D56;
 
+    @media (max-width: 600px) {
+        flex-direction: column;
+    }
+
     .project-preview {
         width: 50%;
         padding-right: 5rem;
@@ -18,6 +22,10 @@ export const ProjectContainer = styled.div`
             width: 100%;
             object-fit: contain;
         }
+
+        @media (max-width: 600px) {
+            width: 100%;
+        }
     }
 
     .project-info {
@@ -26,6 +34,15 @@ export const ProjectContainer = styled.div`
         display: flex;
         flex-direction: column;
         border-left: 1px solid #3F3D56;
+
+        @media (max-width: 600px) {
+            width: 100%;
+            border-left: none;
+            border-top: 1px solid #3F3D56;
+            padding-left: 0;
+            padding-top: 5rem;
+            margin-top: 5rem;
+        }
     }
 
 `;
