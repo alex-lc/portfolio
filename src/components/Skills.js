@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
 import { useSpring } from 'react-spring';
 
 /* styles */
@@ -17,6 +16,7 @@ import Javascript from '../assets/Javascript.svg';
 import Styledcomponents from '../assets/Styledcomponents.svg';
 import Scss from '../assets/Scss.svg';
 import Github from '../assets/Github.svg';
+import Python from '../assets/Python.svg';
 
 export default function Skills() {
 
@@ -33,7 +33,7 @@ export default function Skills() {
                 <Header />
 
                 <H2 onMouseEnter={() => setCurrentSkill('Skills')}>Skills</H2>
-                <LargeP>Continuous learning and adapting to new technologies in an everchanging tech landscape is essential.</LargeP>
+                <LargeP>Continuous learning and adapting to new technologies is essential.</LargeP>
 
                 <SkillContainer>
                     <BackgroundSplash>{currentSkill}</BackgroundSplash>
@@ -56,6 +56,10 @@ export default function Skills() {
                     <Skill onMouseEnter={() => setCurrentSkill('JavaScript')}>
                         <img src={Javascript} alt="JavaScript" />
                         <p>JavaScript</p>
+                    </Skill>
+                    <Skill onMouseEnter={() => setCurrentSkill('Python3')}>
+                        <img src={Python} alt="Python3" />
+                        <p>Python3</p>
                     </Skill>
                     <Skill onMouseEnter={() => setCurrentSkill('Styled')}>
                         <img src={Styledcomponents} alt="Styled-Components" />

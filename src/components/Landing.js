@@ -1,6 +1,5 @@
 import React from 'react';
 import { useSpring } from 'react-spring';
-import { Link } from 'react-router-dom';
 
 /* styles */
 import { Container, InnerContainer, H1, Hero, HeroInfo, Tagline, Social, SocialIcon } from '../styles';
