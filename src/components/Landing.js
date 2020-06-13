@@ -20,7 +20,7 @@ export default function Landing() {
     const props = useSpring({ opacity: 1, from: { opacity: 0 } });
 
     return (
-        <Container style={props} bg="#91c5ff" height="100vh">
+        <Container style={props} bg="#91c5ff" height="110vh">
             <InnerContainer>
                 <Header />
 
