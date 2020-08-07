@@ -57,9 +57,9 @@ export default function Skills() {
                         <img src={Javascript} alt="JavaScript" />
                         <p>JavaScript</p>
                     </Skill>
-                    <Skill onMouseEnter={() => setCurrentSkill('Python3')}>
-                        <img src={Python} alt="Python3" />
-                        <p>Python3</p>
+                    <Skill onMouseEnter={() => setCurrentSkill('Python')}>
+                        <img src={Python} alt="Python" />
+                        <p>Python</p>
                     </Skill>
                     <Skill onMouseEnter={() => setCurrentSkill('Styled')}>
                         <img src={Styledcomponents} alt="Styled-Components" />
