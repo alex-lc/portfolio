@@ -63,15 +63,15 @@ export default function Skills() {
                     </Skill>
                     <Skill onMouseEnter={() => setCurrentSkill('Styled')}>
                         <img src={Styledcomponents} alt="Styled-Components" />
-                        <p>Styled</p>
+                        <p>Styled Components</p>
                     </Skill>
                     <Skill onMouseEnter={() => setCurrentSkill('SCSS')}>
                         <img src={Scss} alt="SCSS" />
                         <p>SCSS</p>
                     </Skill>
                     <Skill onMouseEnter={() => setCurrentSkill('GitHub')}>
-                        <img src={Github} alt="GitHub" />
-                        <p>Git and GitHub</p>
+                        <img src={Github} alt="Git" />
+                        <p>Git</p>
                     </Skill>
                 </SkillContainer>
             </InnerContainer>
