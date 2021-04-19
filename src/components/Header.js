@@ -4,7 +4,7 @@ import { NavLink, Link } from "react-router-dom";
 import { NavContainer, Nav } from "../styles";
 
 // assets
-import Resume from "../assets/files/alexander-cooter-resume-2021.pdf";
+import Resume from "../assets/files/alexander-cooter-resume-2020.pdf";
 
 export default function Header() {
   return (
