@@ -3,11 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "immer": "^8.0.1",
+    "node-notifier": "^8.0.1",
+    "object-path": "^0.11.5",
     "react": "^16.13.1",
+    "react-dev-utils": "^11.0.4",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
     "react-spring": "^8.0.27",
+    "ssri": "^8.0.1",
     "styled-components": "^5.1.0"
   },
   "scripts": {
